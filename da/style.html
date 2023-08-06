@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ *
+ * sass --watch style.scss:style.min.css --style compressed
+ *
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "../bower_components/inuit.css/inuit";
+
+@import "page/base";
+@import "page/header";
+@import "page/headings";
+@import "page/helper";
+@import "page/hero";
+@import "page/infobox";
+@import "page/infos";
+@import "page/contact";
+@import "page/footer";
+
+@import "page/subpages";
+@import "page/sidenav";
